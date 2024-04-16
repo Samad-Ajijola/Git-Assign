@@ -29,51 +29,68 @@ body{
     background-color: black;
     color: #ffffff;
 }
-.img1{
+.banner1{
     height: 300px;
     background-image: url(../Git-Assign/images/img-1.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
 }
+.banner2{
+    height: 300px;
+    background-image: url(../Git-Assign/images/Artboard_1.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .electronics{
     display: grid;
-    justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: forestgreen;
+    justify-content: center;
     height: 400px;
     gap: 10px;
 }
 .electronics2{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    background-color: forestgreen;
     height: 400px;
     gap: 10px;
 }
 .freezer{
     background-image: url(../Git-Assign/images/Freezer.png);
-    background-size: cover;
+    background-size: 300px;
+    background-repeat: no-repeat;
     background-position: center;
 }
 .fridge{
     background-image: url(../Git-Assign/images/Fridgee.png);
-    background-size: cover;
-    background-position: cover;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 .washer{
     background-image: url(../Git-Assign/images/Washer.png);
-    background-size: cover;
-    background-position: cover;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .iron{
     background-image: url(../Git-Assign/images/Pressing_Iron.png);
-    background-size: cover;
-    background-position: cover;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .fan{
     background-image: url(../Git-Assign/images/Fans.png);
-    background-size: cover;
-    background-position: cover;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.ac{
+    background-image: url(../Git-Assign/images/Air_conditioner.png);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
