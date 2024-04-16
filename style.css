@@ -40,6 +40,15 @@ body{
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: forestgreen;
+    height: 400px;
+    gap: 10px;
+}
+.electronics2{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr;
+    background-color: forestgreen;
     height: 400px;
     gap: 10px;
 }
@@ -55,6 +64,16 @@ body{
 }
 .washer{
     background-image: url(../Git-Assign/images/Washer.png);
+    background-size: cover;
+    background-position: cover;
+}
+.iron{
+    background-image: url(../Git-Assign/images/Pressing_Iron.png);
+    background-size: cover;
+    background-position: cover;
+}
+.fan{
+    background-image: url(../Git-Assign/images/Fans.png);
     background-size: cover;
     background-position: cover;
 }
