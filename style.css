@@ -36,3 +36,25 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.electronics{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 400px;
+    gap: 10px;
+}
+.freezer{
+    background-image: url(../Git-Assign/images/Freezer.png);
+    background-size: cover;
+    background-position: center;
+}
+.fridge{
+    background-image: url(../Git-Assign/images/Fridgee.png);
+    background-size: cover;
+    background-position: cover;
+}
+.washer{
+    background-image: url(../Git-Assign/images/Washer.png);
+    background-size: cover;
+    background-position: cover;
+}
